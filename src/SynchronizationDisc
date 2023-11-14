@@ -1,0 +1,10 @@
+Synchronization is used to make sure by some synchronization method
+that only one thread can access the resource at a given point in time.
+
+Java provides a way of creating threads and synchronizing their tasks using
+synchronized blocks.
+
+A synchronized block in Java is synchronized on some object. All synchronized
+blocks synchronize on the same object and can only have one thread executed
+inside them at a time. All other threads attempting to enter the synchronized
+block are blocked until the thread inside the synchronized block exits the block.
